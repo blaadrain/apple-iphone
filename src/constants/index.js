@@ -11,7 +11,7 @@ import {
 
 export const links = ["Mac", "iPad", "iPhone", "Watch", "AirPods"];
 
-export const hightlightsSlides = [
+export const highlightsSlides = [
   {
     id: 1,
     textLists: [

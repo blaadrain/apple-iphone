@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex justify-center gap-x-5 max-sm:hidden">
           {links.map((link) => (
             <p
-              className="text-gray cursor-pointer text-sm transition hover:text-white"
+              className="cursor-pointer text-sm text-gray transition hover:text-white"
               key={link}
             >
               {link}

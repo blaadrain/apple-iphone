@@ -44,7 +44,7 @@ const Hero = () => {
             className="pointer-events-none"
             autoPlay
             muted
-            playsInline={true}
+            playsInline
             key={videoSrc}
           >
             <source src={videoSrc} type="video/mp4" />
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
       <div
         id="cta"
-        className="flex translate-y-20 flex-col items-center opacity-0"
+        className="flex translate-y-10 flex-col items-center opacity-0"
       >
         <a href="#highlights" className="btn">
           Buy
