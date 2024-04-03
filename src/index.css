@@ -22,7 +22,7 @@ canvas {
   touch-action: none;
 }
 
-.scrim-max-width {
+.screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
@@ -39,7 +39,7 @@ canvas {
   }
 
   .btn {
-    @apply bg-blue hover:text-blue hover:border-blue my-5 rounded-3xl border border-transparent px-5 py-2 hover:border hover:bg-transparent;
+    @apply my-5 rounded-3xl bg-white px-5 py-2 text-black transition hover:bg-white/75;
   }
 
   .color-container {
