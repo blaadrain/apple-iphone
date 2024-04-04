@@ -90,7 +90,7 @@ const Model = () => {
             </Canvas>
           </div>
           <div className="mx-auto w-full">
-            <p className="mb-5 text-center text-sm font-medium">
+            <p className="text-md mb-5 text-center font-medium">
               {model.title}
             </p>
             <div className="flex-center">
